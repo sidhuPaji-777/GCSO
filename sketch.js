@@ -70,7 +70,7 @@ wall4.x-car4.x < (car4.width + wall4.width)/2);
     car4.shapeColor = color(255, 0, 0);
   }
 
-  if(deformation < 180 && deformation>100)
+  else if(deformation < 180 && deformation>100)
   {
     car1.shapeColor = color(230, 230, 0);
     car2.shapeColor = color(230, 230, 0);
@@ -78,8 +78,8 @@ wall4.x-car4.x < (car4.width + wall4.width)/2);
     car4.shapeColor = color(230, 230, 0);
   }
 
-  if(deformation<100)
-  {
+else  
+{
     car1.shapeColor = color(0, 255, 0);
     car2.shapeColor = color(0, 255, 0);
     car3.shapeColor = color(0, 255, 0);
